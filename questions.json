@@ -1,0 +1,88 @@
+{
+  "scientists": [
+      {
+          "image": "scientist1.jpg",
+          "question": "Identify this scientist",
+          "options": ["Albert Einstein", "Isaac Newton", "Marie Curie", "Nikola Tesla"],
+          "answer": "Albert Einstein"
+      },
+      {
+          "image": "scientist2.jpg",
+          "question": "Identify this scientist",
+          "options": ["Galileo Galilei", "Marie Curie", "James Clerk Maxwell", "Michael Faraday"],
+          "answer": "Marie Curie"
+      },
+      {
+          "image": "scientist3.jpg",
+          "question": "Identify this scientist",
+          "options": ["Charles Darwin", "Niels Bohr", "Stephen Hawking", "Alan Turing"],
+          "answer": "Charles Darwin"
+      },
+      {
+          "image": "scientist4.jpg",
+          "question": "Identify this scientist",
+          "options": ["Gregor Mendel", "Alexander Graham Bell", "Marie Curie", "Erwin Schrödinger"],
+          "answer": "Gregor Mendel"
+      },
+      {
+          "image": "scientist5.jpg",
+          "question": "Identify this scientist",
+          "options": ["Richard Feynman", "Carl Sagan", "Isaac Newton", "Michael Faraday"],
+          "answer": "Richard Feynman"
+      }
+  ],
+  "quotes": [
+      {
+          "question": "'I think, therefore I am' was said by?",
+          "options": ["Isaac Newton", "Galileo Galilei", "René Descartes", "Marie Curie"],
+          "answer": "René Descartes"
+      },
+      {
+          "question": "'Imagination is more important than knowledge.' Who said this?",
+          "options": ["Albert Einstein", "Nikola Tesla", "Thomas Edison", "Marie Curie"],
+          "answer": "Albert Einstein"
+      },
+      {
+          "question": "'The only way to do great work is to love what you do.' Who said this?",
+          "options": ["Steve Jobs", "Isaac Newton", "Albert Einstein", "Thomas Edison"],
+          "answer": "Steve Jobs"
+      },
+      {
+          "question": "'Not everything that can be counted counts, and not everything that counts can be counted.' Who said this?",
+          "options": ["Albert Einstein", "John Locke", "Winston Churchill", "Isaac Newton"],
+          "answer": "Albert Einstein"
+      },
+      {
+          "question": "'The greatest wealth is to live content with little.' Who said this?",
+          "options": ["Socrates", "Plato", "Aristotle", "Marcus Aurelius"],
+          "answer": "Socrates"
+      }
+  ],
+  "experiments": [
+      {
+          "question": "Who discovered penicillin?",
+          "options": ["Alexander Fleming", "Marie Curie", "Isaac Newton", "Albert Einstein"],
+          "answer": "Alexander Fleming"
+      },
+      {
+          "question": "Who developed the theory of general relativity?",
+          "options": ["Albert Einstein", "Isaac Newton", "Niels Bohr", "Galileo Galilei"],
+          "answer": "Albert Einstein"
+      },
+      {
+          "question": "Who discovered the law of motion and universal gravitation?",
+          "options": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "James Clerk Maxwell"],
+          "answer": "Isaac Newton"
+      },
+      {
+          "question": "Who created the first periodic table?",
+          "options": ["Dmitri Mendeleev", "Marie Curie", "Henry Moseley", "John Dalton"],
+          "answer": "Dmitri Mendeleev"
+      },
+      {
+          "question": "Who first synthesized the artificial diamond?",
+          "options": ["Marie Curie", "Charles Hall", "Edward G. Acheson", "Alexander Graham Bell"],
+          "answer": "Edward G. Acheson"
+      }
+  ]
+}

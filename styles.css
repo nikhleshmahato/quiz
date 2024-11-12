@@ -1,0 +1,165 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Title & Section Selector */
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Section Selection */
+#section-select {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+select {
+    padding: 10px;
+    font-size: 1.2em;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    cursor: pointer;
+    background-color: #f4f7fa;
+    transition: border-color 0.3s ease;
+}
+
+select:hover {
+    border-color: #007BFF;
+}
+
+#question-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Question & Image */
+#scientist-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+/* Scientist Image Container */
+#scientist-image-container {
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    margin-bottom: 20px; /* Add some space between image and question */
+}
+
+/* Scientist Image */
+#scientist-image {
+    max-width: 80%; /* Ensure the image is responsive and not too large */
+    max-height: 300px; /* Limit the height of the image */
+    border-radius: 10px; /* Optional: for rounded corners on the image */
+    display: block; /* Ensures image is displayed as a block to take up full width */
+    margin: 0 auto; /* Center the image */
+}
+
+/* Options Container */
+#options {
+    display: flex;
+    flex-direction: column;  /* Stack options vertically */
+    align-items: center;     /* Center options horizontally */
+    width: 100%;
+}
+
+/* Option */
+.option {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 80%; /* Center the options */
+    max-width: 400px; /* Limit width of options */
+    text-align: center; /* Center the text inside the option */
+}
+
+.option:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+.option:active {
+    background-color: #003d80;
+}
+
+
+/* Score Display */
+#score {
+    font-size: 1.5em;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+/* OK Button */
+#ok-button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 10px;
+}
+
+#ok-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+#ok-button:active {
+    background-color: #003d80;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    #section-select {
+        padding: 15px;
+    }
+
+    #question-container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .option {
+        font-size: 1em;
+        padding: 12px;
+    }
+}
