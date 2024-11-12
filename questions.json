@@ -1,31 +1,31 @@
 {
   "scientists": [
       {
-          "image": "scientist1.jpg",
+          "image": "images/einstein.jpg",
           "question": "Identify this scientist",
           "options": ["Albert Einstein", "Isaac Newton", "Marie Curie", "Nikola Tesla"],
           "answer": "Albert Einstein"
       },
       {
-          "image": "scientist2.jpg",
+          "image": "images/bohr.jpg",
           "question": "Identify this scientist",
-          "options": ["Galileo Galilei", "Marie Curie", "James Clerk Maxwell", "Michael Faraday"],
-          "answer": "Marie Curie"
+          "options": ["Galileo Galilei", "Neil Bohr", "James Clerk Maxwell", "Michael Faraday"],
+          "answer": "Neil Bohr"
       },
       {
-          "image": "scientist3.jpg",
+          "image": "images/Faraday.jpg",
           "question": "Identify this scientist",
           "options": ["Charles Darwin", "Niels Bohr", "Stephen Hawking", "Alan Turing"],
           "answer": "Charles Darwin"
       },
       {
-          "image": "scientist4.jpg",
+          "image": "images/Kelvin.jpg",
           "question": "Identify this scientist",
           "options": ["Gregor Mendel", "Alexander Graham Bell", "Marie Curie", "Erwin Schrödinger"],
           "answer": "Gregor Mendel"
       },
       {
-          "image": "scientist5.jpg",
+          "image": "images/Feynman.jpg",
           "question": "Identify this scientist",
           "options": ["Richard Feynman", "Carl Sagan", "Isaac Newton", "Michael Faraday"],
           "answer": "Richard Feynman"
