@@ -15,14 +15,14 @@
       {
           "image": "images/Faraday.jpg",
           "question": "Identify this scientist",
-          "options": ["Charles Darwin", "Niels Bohr", "Stephen Hawking", "Alan Turing"],
-          "answer": "Charles Darwin"
+          "options": ["Michael Faraday", "Niels Bohr", "Stephen Hawking", "Alan Turing"],
+          "answer": "Michael Faraday"
       },
       {
           "image": "images/Kelvin.jpg",
           "question": "Identify this scientist",
-          "options": ["Gregor Mendel", "Alexander Graham Bell", "Marie Curie", "Erwin Schrödinger"],
-          "answer": "Gregor Mendel"
+          "options": ["Lord Kelvin", "Alexander Graham Bell", "Marie Curie", "Erwin Schrödinger"],
+          "answer": "Lord Kelvin"
       },
       {
           "image": "images/Feynman.jpg",
